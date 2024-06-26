@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: [16.x]
+        node_version: [20.x]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        node-version: ${{ matrix.node-version }}
 
     - name: Deploy to Azure Blob Storage
       uses: azure/cli@v1
