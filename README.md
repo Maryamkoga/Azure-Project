@@ -5,7 +5,7 @@ This project is a skincare website developed using HTML and CSS. It features inf
 Project Workflow:
 Development: Created using HTML and CSS to design and structure the website.
 Version Control: Managed with Git and hosted on GitHub for version tracking and collaboration.
-Hosting: Deployed as a static website on Azure for public access.
+Hosting: Deployed as a static website on Azure for public access. 
 CI/CD Pipeline: Implemented a GitHub Actions workflow for automated deployment. Updates made to the GitHub repository automatically trigger deployments to Azure.
 
 Technologies Used:
